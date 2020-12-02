@@ -1,0 +1,26 @@
+{
+  "name": "teach-vue-chat-client-build",
+  "version": "1.0.0",
+  "description": "A chat client app build for teaching how to make magic with Vue.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "decrypt": "gpg --no-use-agent --decrypt sources.tar.gz.enc | tar -xzvf -"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminchazelle/teach-vue-chat-client-build.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminchazelle/teach-vue-chat-client-build/issues"
+  },
+  "homepage": "https://github.com/benjaminchazelle/teach-vue-chat-client-build#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
