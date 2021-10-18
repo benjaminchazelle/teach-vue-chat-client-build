@@ -5,6 +5,8 @@
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
+    "build": "cd source && yarn build",
+    "serve": "npx serve build",
     "decrypt": "gpg --no-use-agent --decrypt sources.tar.gz.enc | tar -xzvf -"
   },
   "engines": {
